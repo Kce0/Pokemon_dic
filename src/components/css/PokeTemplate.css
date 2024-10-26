@@ -1,0 +1,76 @@
+.PokeTemplate {
+   width: 90vw;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 1rem;
+   border-radius: 4px;
+   overflow: hidden;
+}
+
+.main-logo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 1rem;
+}
+
+.main-logo img {
+   width: 200px;
+}
+
+.PokeTemplate .Poke-title {
+   background: #424242;
+   color: #ffffff;
+   height: 4rem;
+   font-weight: 800;
+   font-size: 1.3rem;
+   display: flex;
+   align-items: center;
+}
+
+.PokeTemplate .Poke-logo {
+   display: flex;
+   align-items: center;
+   padding: 0 30px;
+   margin-right: 20px;
+}
+
+.Poke-title .ball-logo {
+   margin-right: 10px;
+}
+
+.PokeTemplate .content {
+   background: white;
+}
+
+.PokeInsert {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.PokeInsert input {
+   width: 72vw;
+   height: 44px;
+   background: #1c1c1c;
+   margin-right: 10px;
+   color: white;
+   outline: none;
+   border: none;
+   border-radius: 10px;
+   padding: 0 20px;
+   font-size: 20px;
+}
+
+.PokeInsert button {
+   background: none;
+   outline: none;
+   border: none;
+   font-size: 2.5rem;
+   cursor: pointer;
+   color: white;
+   padding-top: 5px;
+}
+
+.PokeInsert button:hover {
+   color: #1c1c1c;
+}
